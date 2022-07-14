@@ -721,6 +721,7 @@ a.trip-default-btn.trip-outline:hover{
 }
 .trip-card-thumb {
   flex: 0 0 34%;
+  height: 265px;
 }
 .trip-card-thumb img{
   width: 100%;
@@ -859,4 +860,29 @@ footer.trip-footer-section {
   border-radius: 50px;
   position: absolute;
   background-color: #FFFFFF;
+}
+
+
+#button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 84px;
+  right: 16%;
+  transition: background-color 0.3s ease 0s, opacity 0.5s ease 0s, visibility 0.5s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  cursor: pointer;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#button:active {
+  background-color: #000;
 }

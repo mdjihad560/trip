@@ -29,14 +29,49 @@ $(".close, .offcanvas-overlay").on("click", function () {
 
 // date picker
 
-$('#rangestart').calendar({
+$('.rangestart').calendar({
   type: 'date',
-  endCalendar: $('#rangeend')
+  endCalendar: $('.rangeend')
 });
-$('#rangeend').calendar({
+$('.rangeend').calendar({
   type: 'date',
-  startCalendar: $('#rangestart')
+  startCalendar: $('.rangestart')
 });
+
+$('.rangestart2').calendar({
+  type: 'date',
+  endCalendar: $('.rangeend2')
+});
+$('.rangeend2').calendar({
+  type: 'date',
+  startCalendar: $('.rangestart2')
+});
+
+// $('#rangestart').calendar({
+//   type: 'date',
+//   endCalendar: $('#rangeend')
+// });
+// $('#rangeend').calendar({
+//   type: 'date',
+//   startCalendar: $('#rangestart')
+// });
+
+
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
 
 
 	
