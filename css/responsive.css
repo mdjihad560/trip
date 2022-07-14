@@ -78,6 +78,11 @@
         width: 100%;
         margin-bottom: 30px;
     }
+    .trip-map-two {
+        position: inherit;
+        top: 50px;
+        height: auto;
+      }
 
 }
 
