@@ -1,0 +1,235 @@
+/*For bigger screen then normal 1500px desktop*/
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .trip-sidebar{
+        margin: 0;
+    }
+    .trip-sidebar-item-btn {
+        padding: 0;
+    }
+    .trip-sidebar-item-top a {
+        margin-right: 10px;
+    }
+    .trip-sidebar-item-top p {
+        margin-right: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    a.trip-header-social {
+        display: none;
+    }
+    .main-menu ul li {
+        margin: 0 15px;
+    }
+    .main-menu {
+        margin-right: 30px;
+    }
+    .trip-sidebar{
+        margin: 0;
+    }
+    .trip-sidebar-item-btn {
+        padding: 0;
+    }
+    .trip-sidebar-item-top a {
+        margin-right: 10px;
+    }
+    .trip-sidebar-item-top p {
+        margin-right: 40px;
+    }
+    .trip-sidebar-item-top p {
+        margin-right: 30px;
+    }
+    .trip-card-footer {
+        padding-left: 20px;
+    }
+
+}
+
+
+
+/*For Tablet Layout*/
+@media(max-width: 991px) {
+    .main-menu {
+        display: none; 
+    }
+    .offcanves-menu{
+        display: block;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .trip-menu-wrap {
+        display: block;
+        text-align: center;
+    }
+    header.trip-header-section {
+        padding: 20px 0;
+    }
+    .trip-map-two img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+    a.trip-header-btn {
+        margin-right: 0;
+    }
+    .trip-logo {
+        display: inline-block;
+        width: 150px;
+    }
+    .trip-card-body {
+        display: block;
+    }
+    .trip-card-thumb img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .trip-sidebar-item-top {
+        display: block;
+        text-align: center;
+    }
+    .trip-sidebar-item-top p {
+        margin: 15px 0;
+    }
+    
+}
+
+@media (max-width: 575px) {
+   
+    .responsive-width-left{
+        width: 30%;
+    }
+    .responsive-width-right{
+        width: 70%;
+    }
+    .trip-hero-content h1 {
+        font-size: 20px;
+    }
+    .map-icon{
+        width: 30px;
+    }
+    a.trip-edit-btn, 
+    a.trip-share-btn {
+        font-size: 18px;
+
+    }
+    a.trip-edit-btn img {
+        margin-left: 25px;
+    }
+    a.trip-edit-btn{
+        width: 190px;
+    }
+    .trip-hero-section{
+        height: 190px;
+    }
+
+    .width_50{
+        width: 50%;
+    }
+    .trip-timeline ul li {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    a.trip-outline-btn{
+        width: 100%;
+    }
+    .trip-timeline ul li:nth-child(1):before, .trip-timeline ul li:nth-child(2):before, .trip-timeline ul li:nth-child(3):before, .trip-timeline ul li:nth-child(4):before, .trip-timeline ul li:nth-child(5):before, .trip-timeline ul li:nth-child(6):before, .trip-timeline ul li:nth-child(7):before, .trip-timeline ul li:nth-child(8):before, .trip-timeline ul li:nth-child(9):before, .trip-timeline ul li:nth-child(10):before {
+    
+        top: -48px;
+    right: 0;
+    padding: 0;
+    font-size: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 39px;
+    background-size: cover;
+    }
+    .trip-timeline {
+        margin-top: 45px;
+    }
+    .trip-timeline ul li h5 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .trip-timeline ul {
+        margin-right: 0;
+        border-right: none;
+        position: relative;
+    }
+    /* .trip-timeline ul:before{
+        content: " ";
+        left: 50%;
+        width: 4px;
+        height: 100%;
+        border-radius: 100px;
+        position: absolute;
+        border: 4px dotted #0D2F29;
+        transform: translateX(-50%);
+    } */
+
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+    .trip-user-cion {
+        top: 0px;
+        right: 3px;
+    }
+    .ui.icon.input>i.icon {
+        right: 10px;
+    }
+    .input input{
+        padding: 5px!important;
+
+      }
+      .trip-user-input{
+        position: relative;
+      }
+
+      .trip-user-input input{
+        padding: 5px!important;
+     
+      }
+      .trip-card-footer {
+        padding-left: 0;
+    }
+    .trip-card-body {
+        padding: 7px 10px 20px;
+    }
+    button.trip-modal {
+        padding: 5px 10px;
+    }
+    a.trip-default-btn {
+        flex: 0 0 100%;
+
+    }
+    .trip-card-header {
+        display: block;
+        text-align: center;
+    }
+    .trip-card-header h4 {
+        margin-top: 15px;
+    }
+
+}

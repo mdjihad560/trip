@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7"> 
+<![endif]-->
+<!--[if IE 7]>         
+    <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>         
+    <html class="no-js lt-ie9"> 
+<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Trip</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+		<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!--End ALL STYLESHEET -->
+
+	</head>
+
+		<body>
+
+			<div class="offcanves-menu">
+				<span class="close"><i class="fas fa-times"></i></span>
+					<ul>
+						<li><a href="">למה לבחור בTrip Planner </a></li>
+						<li><a href="">חיפוש טיול</a></li>
+						<li><a href="">אודות</a></li>
+						<li><a href="">דף הבית</a></li>
+					</ul>
+				</div>
+			<div class="offcanvas-overlay"></div>
+
+			<header class="trip-header-section">
+				<div class="container">
+					<div class="trip-menu-wraper">
+						<div class="row">
+							<div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 d-flex align-items-center responsive-width-left">
+								<div class="trip-header-button-wrap">
+									<a class="trip-header-btn" href="">התנתק</a>
+									<a class="trip-header-social" href=""><img src="images/facebook.svg" alt=""></a>
+								</div>
+							</div>
+							<div class="col-xl-9 col-lg-10 col-md-9 col-sm-9 responsive-width-right">
+								<div class="trip-menu-wrap">
+									<div class="main-menu">
+										<ul>
+											<li><a href="">למה לבחור בTrip Planner </a></li>
+											<li><a href="">חיפוש טיול</a></li>
+											<li><a href="">אודות</a></li>
+											<li><a href="">דף הבית</a></li>
+										</ul>
+									</div>
+									<div class="trip-logo">
+										<a href="#">
+											<img src="images/logo.png" alt="">
+										</a>
+										<div class="menu-bar">
+											<i class="fa-solid fa-bars"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+				</div>
+			</header>
+			<!-- End header section -->
+
+			<div class="trip-hero-section" style="background-image: url('images/hero-bg.jpg')">
+				<div class="container">
+						<div class="trip-hero-content">
+							<h1>אוסטריה - חבל קרניתיה וסלובניה <img class="map-icon" src="images/map.png" alt=""></h1>
+							<a class="trip-share-btn" href="">שתף טיול <img src="images/edit.svg" alt=""></a>
+							<a class="trip-edit-btn" href="">עריכה <img src="images/share.svg" alt=""></a>
+						</div>
+				</div>
+			</div>
+			<!-- End hero section -->
+			<div class="trip-contnet-section">
+				<div class="container">
+					<div class="trip-contnet">
+						<h2>מצב עריכה</h2>
+					</div>
+				</div>
+			</div>
+			<!-- End hero section -->
+
+			<div class="trip-date-section">
+				<div class="container">
+					<div class="trip-date-wrap">
+						<div class="trip-user-input">
+							<input type="text" placeholder="6  מטיילים">
+							<div class="trip-user-cion">
+								<img src="images/user.svg" alt="">
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui calendar" id="rangestart">
+								<div class="ui input icon">
+									<i class="calendar icon"></i>
+									<input type="text" placeholder="01-09-2016">
+								</div>
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui calendar" id="rangeend">
+								<div class="ui input icon">
+									<i class="calendar icon"></i>
+									<input type="text" placeholder="20-08-2016 ">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="trip-textarea">
+						<p>חזרנו מ 12 יום בחבל קרניתיה (אוסטריה) וסלובניה. זוג + 4 (בת 13,בן 11,בן 9 ובן 4) על סלובניה נכתב רבות, אבל על קרניתיה מילים בודדות...
+							הפוסט ארוך... אבל רלוונטי למי שרוצה לגלות את החבל הזה .. מי שירצה חוברת עם כתובות מדוויקות ל- GPS מוזמן
+							לפנות בפרטי. אחרי שחרשנו שנה שעברה 10 ימים את חבל זלצבורג חשבנו שקשה להתעלות על החוויה, אבל קרניתיה הפתיעה בגדול. יש כל כך הרבה מה לעשות ומה לראות... המזג אויר מושלם, ובכל מקום שתגיעו אתם לבד או כמעט לבד. התיירים היחידים שם זה האוסטרים עצמם והאיטלקים, אלו השפות שתשמעו בכל השהות לטוב ולרע.
+							</p>
+						<button type="button" id="textarea-btn">הטיול שותף על ידי אבשלום כץ </button>
+					</div>
+					<div class="trip-timeline-section">
+						<div class="trip-outline-btn-wrap">
+							<a class="trip-outline-btn"href="">מקומות לינה</a>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 width_50">
+								<div class="trip-map-one">
+									<img src="images/map-one.png" alt="">
+								</div>
+							</div>
+							<div class="col-sm-6 width_50">
+								<div class="trip-timeline">
+									<ul>
+										<li>
+											<h5>Austria, Unterlamm</h5>
+											<p>1 לילה</p>
+										</li>
+										<li>
+											<h5>Slovenia</h5>
+											<p>2 לילות/p>
+										</li>
+										<li>
+											<h5>Austria, Seeboden</h5>
+											<p>8 לילות/p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילות/p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+										<li>
+											<h5>Austria, Baden</h5>
+											<p>2 לילה</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- End trip date section -->
+
+			<div class="trip-main-section">
+				<div class="container">
+					<div class="trip-outline-btn-wrap">
+						<a class="trip-outline-btn"href="">אטרקציותה</a>
+					</div>
+					<div class="traip-main-column">
+						<div class="row">
+							<div class="col-xl-5 col-lg-4">
+								<div class="trip-map-two">
+									<img src="images/map-two.png" alt="">
+								</div>
+							</div>
+							<div class="col-xl-7 col-lg-8">
+								<div class="trip-sidebar">
+									<div class="trip-sidebar-item">
+										<div class="trip-sidebar-item-btn">
+											<div class="trip-sidebar-item-top">
+												<a href="">פעילויות באזור</a>
+												<p>Austria, Unterlamm <img src="images/map2.svg" alt=""></p>
+												<h4>20.8-21.8 <span>יום 1</span></h4>
+											</div>
+											<div class="trip-btn-wraper">
+													<a class="trip-default-btn" href="">+ הוספת לינה</a>
+													<a class="trip-default-btn" href="">+ הוספת פעילות</a>
+													<a class="trip-default-btn trip-outline" href="">מחיקת יום<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M14.0804 13.6694L8.3147 7.82202M14.0804 7.82202L8.3147 13.6694" stroke="#DD6E42" stroke-width="2" stroke-linecap="round"/>
+														<path d="M11.1975 20.4914C16.5047 20.4914 20.807 16.1281 20.807 10.7457C20.807 5.3633 16.5047 1 11.1975 1C5.89024 1 1.58789 5.3633 1.58789 10.7457C1.58789 16.1281 5.89024 20.4914 11.1975 20.4914Z" stroke="#DD6E42" stroke-width="2"/>
+														</svg>
+														</a>
+													<a class="trip-default-btn trip-outline" href="">+ הוספת יום</a>
+											</div>
+										</div>
+										<div class="trip-card-item">
+											<div class="trip-card-wrap">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star2.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb1.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>נוחתים בשבת בערב בוינה, כבר שנה שנייה שאנחנו
+															טסים עם Austrian Airlines טיסות סדירות
+															כוללות הכל, שירות מעולה.</p>
+															<div class="trip-card-footer">
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+											<div class="trip-card-wrap border2">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb2.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>HOTEL GARNI VILLA THERMALE <br/> Unterlamm</p>
+														<h5>לא הזנת פרטי לינה<img src="images/cross3.svg" alt=""></h5>
+														
+															<div class="trip-card-footer">
+																<div class="trip-date-wrap trip-date-wrap2">
+																	<div class="field">
+																		<div class="ui calendar" id="rangestart">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="01-09-2016">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="field">
+																		<div class="ui calendar" id="rangeend">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="20-08-2016 ">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="trip-sidebar-item">
+										<div class="trip-sidebar-item-btn">
+											<div class="trip-sidebar-item-top">
+												<a href="">פעילויות באזור</a>
+												<p>Austria, Unterlamm <img src="images/map2.svg" alt=""></p>
+												<h4>20.8-21.8 <span>יום 1</span></h4>
+											</div>
+											<div class="trip-btn-wraper">
+													<a class="trip-default-btn" href="">+ הוספת לינה</a>
+													<a class="trip-default-btn" href="">+ הוספת פעילות</a>
+													<a class="trip-default-btn trip-outline" href="">מחיקת יום<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M14.0804 13.6694L8.3147 7.82202M14.0804 7.82202L8.3147 13.6694" stroke="#DD6E42" stroke-width="2" stroke-linecap="round"/>
+														<path d="M11.1975 20.4914C16.5047 20.4914 20.807 16.1281 20.807 10.7457C20.807 5.3633 16.5047 1 11.1975 1C5.89024 1 1.58789 5.3633 1.58789 10.7457C1.58789 16.1281 5.89024 20.4914 11.1975 20.4914Z" stroke="#DD6E42" stroke-width="2"/>
+														</svg>
+														</a>
+													<a class="trip-default-btn trip-outline" href="">+ הוספת יום</a>
+											</div>
+										</div>
+										<div class="trip-card-item">
+											<div class="trip-card-wrap border3">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb3.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>נוחתים בשבת בערב בוינה, כבר שנה שנייה שאנחנו
+															טסים עם Austrian Airlines טיסות סדירות
+															כוללות הכל, שירות מעולה.</p>
+															<div class="trip-card-footer">
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+											<div class="trip-card-wrap border4">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb2.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>HOTEL GARNI VILLA THERMALE <br/> Unterlamm</p>
+														<h5>לא הזנת פרטי לינה<img src="images/cross3.svg" alt=""></h5>
+														
+															<div class="trip-card-footer">
+																<div class="trip-date-wrap trip-date-wrap2">
+																	<div class="field">
+																		<div class="ui calendar" id="rangestart">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="01-09-2016">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="field">
+																		<div class="ui calendar" id="rangeend">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="20-08-2016 ">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+	
+									<div class="trip-sidebar-item">
+										<div class="trip-sidebar-item-btn">
+											<div class="trip-sidebar-item-top">
+												<a href="">פעילויות באזור</a>
+												<p>Austria, Unterlamm <img src="images/map2.svg" alt=""></p>
+												<h4>20.8-21.8 <span>יום 1</span></h4>
+											</div>
+											<div class="trip-btn-wraper">
+													<a class="trip-default-btn" href="">+ הוספת לינה</a>
+													<a class="trip-default-btn" href="">+ הוספת פעילות</a>
+													<a class="trip-default-btn trip-outline" href="">מחיקת יום<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M14.0804 13.6694L8.3147 7.82202M14.0804 7.82202L8.3147 13.6694" stroke="#DD6E42" stroke-width="2" stroke-linecap="round"/>
+														<path d="M11.1975 20.4914C16.5047 20.4914 20.807 16.1281 20.807 10.7457C20.807 5.3633 16.5047 1 11.1975 1C5.89024 1 1.58789 5.3633 1.58789 10.7457C1.58789 16.1281 5.89024 20.4914 11.1975 20.4914Z" stroke="#DD6E42" stroke-width="2"/>
+														</svg>
+														</a>
+													<a class="trip-default-btn trip-outline" href="">+ הוספת יום</a>
+											</div>
+										</div>
+										<div class="trip-card-item">
+											<div class="trip-card-wrap border3">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb3.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>נוחתים בשבת בערב בוינה, כבר שנה שנייה שאנחנו
+															טסים עם Austrian Airlines טיסות סדירות
+															כוללות הכל, שירות מעולה.</p>
+															<div class="trip-card-footer">
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+											<div class="trip-card-wrap border4">
+												<div class="trip-card-header">
+													<ul>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+														<li><img src="images/star1.svg" alt=""></li>
+													</ul>
+													<h4>שדה תעופה בוינה</h4>
+												</div>
+												<div class="trip-card-body">
+													<div class="trip-card-thumb">
+														<img src="images/thumb2.png" alt="">
+													</div>
+													<div class="trip-card-content">
+														<p>HOTEL GARNI VILLA THERMALE <br/> Unterlamm</p>
+														<h5>לא הזנת פרטי לינה<img src="images/cross3.svg" alt=""></h5>
+														
+															<div class="trip-card-footer">
+																<div class="trip-date-wrap trip-date-wrap2">
+																	<div class="field">
+																		<div class="ui calendar" id="rangestart">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="01-09-2016">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="field">
+																		<div class="ui calendar" id="rangeend">
+																			<div class="ui input icon">
+																				<i class="calendar icon"></i>
+																				<input type="text" placeholder="20-08-2016 ">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="trip-card-footer-top">
+																	<a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
+																	<button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
+																	<button class="trip-modal" type="button">אתר</button>
+																	<button class="trip-modal" type="button">פרטים נוספים</button>
+																</div>
+																<div class="trip-card-footer-bottom">
+																	<a class="trip-footer-button" href="">הסר<img src="images/cross2.svg" alt=""></a>
+																	<a class="trip-footer-button" href="">ערוך<img src="images/edit2.svg" alt=""></a>
+																</div>
+															</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- End trip main section -->
+
+
+
+			<script src="js/jquery-3.6.0.min.js"></script>
+			<script src="js/semantic.min.js"></script>
+	
+			
+			<script src="js/main.js"></script>
+
+			<!-- End All Js -->
+			
+
+	</body>
+</html>
