@@ -237,6 +237,15 @@ header.trip-header-section {
     padding: 110px 0 35px;
     margin: 0;
 }
+.trip-hero-section.home2 {
+    margin: 0;
+}
+.trip-hero-section.home2 {
+    padding: 95px 0 20px;
+}
+.trip-date-section.home2 {
+    padding: 40px 0;
+}
 
 }
 
@@ -298,6 +307,9 @@ header.trip-header-section {
     .trip-date-section {
         padding: 25px 0;
     }
+    .trip-date-section.home2 {
+        padding: 25px 0;
+    }
     .trip-textarea {
         padding: 20px 0;
     }
@@ -346,7 +358,7 @@ header.trip-header-section {
     .trip-timeline ul li {
         padding: 0;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     a.trip-outline-btn {
         width: inherit;
@@ -371,7 +383,6 @@ header.trip-header-section {
     .trip-timeline ul li:nth-child(8):before, 
     .trip-timeline ul li:nth-child(9):before, 
     .trip-timeline ul li:nth-child(10):before {
-    
     top: -48px;
     right: 0;
     padding: 0;
@@ -397,6 +408,17 @@ header.trip-header-section {
         margin-right: 0;
         border-right: none;
         position: relative;
+    }
+    .trip-timeline ul li:after {
+        content: "";
+        width: 4px;
+        top: 35px;
+        height: 18px;
+        position: absolute;
+        background-image: url(../images/dots.png);
+    }
+    .trip-timeline ul li:last-child:after {
+        content: none;
     }
     .trip-map-one {
         height: 390px;
@@ -424,6 +446,12 @@ header.trip-header-section {
     .trip-sidebar-item-top p {
         margin: 10px 0;
         font-size: 14px;
+        width: 82px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
     }
     .trip-sidebar-item-top p img{
         width: 15px;
@@ -510,6 +538,9 @@ a.trip-btn-outline img {
 }
 .trip-card-content p {
     font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 a.trip-card-btn {
     padding: 3px 14px;
@@ -604,7 +635,8 @@ footer.trip-footer-section {
     padding: 40px 0 20px;
     margin-top: 73px;
 }
-.contact-page .trip-hero-content h2, .contact-page .trip-hero-content h1 {
+.contact-page .trip-hero-content h2, 
+.contact-page .trip-hero-content h1 {
     font-size: 16px;
     margin: 0 0 0;
 }
@@ -651,7 +683,17 @@ footer.trip-footer-section {
 .trip-hero-section.activity-page {
     padding: 95px 0 15px;
 }
-
+.trip-sidebar-item-top {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.trip-sidebar-item-top.desktop{
+    display: none;
+  }
+  .trip-sidebar-item-top.mobile {
+    display: flex;
+}
 
 }
 

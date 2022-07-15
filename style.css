@@ -334,6 +334,12 @@ Hero SECTION
   width: 100%;
   z-index: 9;
 }
+.trip-hero-section.home2 {
+  padding: 120px 0 20px;
+}
+.trip-sidebar-item-top.mobile {
+  display: none;
+}
 .trip-hero-content {
   text-align: center;
 }
@@ -389,6 +395,9 @@ a.trip-edit-btn img{
 .trip-date-section {
   padding: 346px 0 40px;
   background: linear-gradient(1.57deg, rgba(107, 176, 192, 0.03) -18.01%, rgba(53, 130, 117, 0.03) 68.61%);
+}
+.trip-date-section.home2 {
+  padding: 285px 0 40px;
 }
 .trip-date-wrap {
   display: flex;
