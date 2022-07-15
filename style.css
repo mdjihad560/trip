@@ -150,7 +150,7 @@ HEADER SECTION
 header.trip-header-section {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   padding: 35px 0;
   transition: all 0.4s;
 }
@@ -159,7 +159,9 @@ header.trip-header-section.sticky-menu {
   padding: 25px 0;
   box-shadow: 0 3px 8px rgb(0 0 0 / 6%);
 }
-
+img.mobile-logo {
+  display: none;
+}
 a.trip-header-btn {
   display: inline-block;
   background-color: #E42424;
@@ -227,6 +229,7 @@ header.trip-header-section.sticky-menu .main-menu ul li a{
   margin-left: -300px;
   transition: .3s;
   padding-right: 0px;
+  top: 0;
 }
 .offcanves-menu ul {
     padding-top: 20px;
@@ -326,10 +329,10 @@ Hero SECTION
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 239px;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 24px;
+  padding: 120px 0 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
 }
 .trip-hero-content {
   text-align: center;
@@ -370,6 +373,7 @@ a.trip-edit-btn img{
 .trip-contnet-section {
   padding: 20px 0;
   background-color: #DF8A3E;
+  margin-top: 20px;
 }
 .trip-contnet{
   text-align: center;
@@ -383,11 +387,12 @@ a.trip-edit-btn img{
 
 /* date section */
 .trip-date-section {
-  padding: 16px 0 40px;
+  padding: 346px 0 40px;
   background: linear-gradient(1.57deg, rgba(107, 176, 192, 0.03) -18.01%, rgba(53, 130, 117, 0.03) 68.61%);
 }
 .trip-date-wrap {
   display: flex;
+  align-items: center;
   background: #FFFFFF;
   box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
   border-radius: 22px;
@@ -836,7 +841,7 @@ a.trip-footer-button img{
 
 .trip-map-two {
   position: sticky;
-  top: 50px;
+  top: 355px;
 }
 
 /* footer section */
@@ -846,6 +851,7 @@ footer.trip-footer-section {
 }
 .trip-footer-wrap {
   text-align: center;
+  position: relative;
 }
 .trip-footer-wrap img{
   margin-bottom: 20px;
@@ -887,9 +893,9 @@ footer.trip-footer-section {
   height: 40px;
   text-align: center;
   border-radius: 4px;
-  position: fixed;
-  bottom: 84px;
-  right: 16%;
+  position: absolute;
+  right: 0;
+  top: 0;
   transition: background-color 0.3s ease 0s, opacity 0.5s ease 0s, visibility 0.5s ease 0s;
   opacity: 0;
   visibility: hidden;
@@ -906,15 +912,16 @@ footer.trip-footer-section {
 }
 
 .trip-map-red-icon {
-  position: absolute;
-  right: 0;
-  top: 60px;
+  position: fixed;
+  right: 20px;
   display: none;
+  bottom: 20px;
+  z-index: 9;
 }
 
 /* trip page */
 .trip-page-section.trip-page {
-  padding: 110px 0 65px;
+  padding: 300px 0 65px;
 }
 a.trip-hero-btn {
   font-weight: 500;
@@ -965,12 +972,12 @@ a.trip-hero-btn:hover{
 }
 
 /* about page */
-.trip-hero-section.about-page{
-  padding: 0 0 55px;
+.trip-hero-section.about-page {
+  padding: 120px 0 60px;
 }
 
 .trip-about-section {
-  padding: 90px 0;
+  padding: 300px 0 90px;
 }
 .trip-about-thumb {
   position: sticky;
@@ -1025,20 +1032,23 @@ a.trip-hero-btn:hover{
 }
 
 /* contact page */
-.trip-hero-content h2, 
-.trip-hero-content h1{
+.trip-hero-section.contact-page {
+  padding: 120px 0 20px;
+}
+.contact-page .trip-hero-content h2, 
+.contact-page .trip-hero-content h1{
   font-weight: 700;
   font-size: 25px;
   color: #FFFFFF;
   margin: 0 0 15px;
 }
-.trip-hero-content h1 img{
+.contact-page .trip-hero-content h1 img{
   width: 25px;
 }
 
 .trip-contnet1-section {
   background-color: #9EDCD2;
-  padding: 20px 0;
+  padding: 253px 0 20px;
 }
 .trip-content1{
   text-align: center;
@@ -1089,8 +1099,9 @@ a.trip-hero-btn:hover{
   margin-bottom: 45px;
 }
 
-.trip-contact-thumb img{
+.trip-contact-thumb img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .trip-contact-section {
   padding: 70px 0 150px;
@@ -1146,9 +1157,6 @@ a.trip-hero-btn:hover{
 .trip-contact-wrap .trip-date-wrap{
   max-width: 100%
 }
-.input input{
-  border: none!important;
-}
 
 .input.border-left{
   border-left: 1px solid #BABABA!important;
@@ -1179,7 +1187,7 @@ a.trip-default-btn.btn-sky.btn-green {
 
 /* activity page */
 .trip-card-section {
-  padding: 50px 0;
+  padding: 255px 0 50px;
 }
 .trip-card-top {
   text-align: center;
@@ -1213,7 +1221,10 @@ a.trip-btn-outline {
 a.trip-btn-outline img{
   margin-left: 10px;
 }
-
+.trip-map-four {
+  position: sticky;
+  top: 237px;
+}
 .trip-card2-wrap {
   border: 1px solid rgba(13, 47, 41, 0.2);
 }
@@ -1351,4 +1362,11 @@ a.trip-card-btn:hover{
 
 .trip-location.mobile-device{
   display: none;
+}
+.trip-hero-section.activity-page {
+  padding: 120px 0 55px;
+}
+/* trip page */
+.trip-hero-section.trip-page {
+  padding: 110px 0 35px;
 }
