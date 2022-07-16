@@ -747,12 +747,20 @@ a.trip-default-btn.trip-outline:hover{
 }
 
 .trip-card-body {
-  padding: 7px 20px 20px;
+  padding: 7px 20px 25px;
   display: flex;
 }
 .trip-card-thumb {
   flex: 0 0 34%;
   height: 265px;
+}
+.trip-card-thumb p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-align: right;
+  color: #0D2F29;
+  padding-bottom: 10px;
 }
 .trip-card-thumb img{
   width: 100%;
@@ -1376,4 +1384,118 @@ a.trip-card-btn:hover{
 /* trip page */
 .trip-hero-section.trip-page {
   padding: 110px 0 35px;
+}
+
+/* brand section */
+.trip-brand-section {
+  background-color: #E6F6F9;
+  padding: 30px 0;
+}
+.trip-brand-title h2{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #536271;
+  margin-bottom: 20px;
+}
+
+.trip-brand-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.trip-brand-item {
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+/* cta 2 home */
+.trip-cta2-section {
+  padding: 60px 0;
+  background-color: #F5FDFB;
+}
+
+.trip-cta2-title h2{
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #536271;
+  margin-bottom: 60px;
+}
+.trip-cta2-wrap {
+  text-align: center;
+}
+
+.trip-cta2-thumb img{
+  height: 136px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  background-color: #F5FDFB;
+}
+.trip-cta2-data p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #536271;
+}
+
+.trip-cta-border{
+  z-index: 0;
+  position: relative;
+}
+.trip-cta-border:before {
+  content: " ";
+  bottom: 150px;
+  left: 50%;
+  z-index: -1;
+  width: calc(100% - 275px);
+  height: 4px;
+  position: absolute;
+  transform: translateX(-50%);
+  border-bottom: 4px dotted #536271;
+}
+
+.trip-iconbox-section {
+  background-color: #F3FAFC;
+  padding: 60px 0;
+}
+.trip-iconbox-title{
+  margin-bottom: 50px;
+}
+.trip-iconbox-title h2{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #536271;
+}
+
+.trip-iconbox-wrap {
+  text-align: center;
+}
+.trip-iconbox-thumb {
+  height: 175px;
+  margin-bottom: 30px;
+}
+.trip-iconbox-thumb img{
+  height: 100%;
+}
+
+.trip-iconbox-data h3{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #536271;
+  margin-bottom: 5px;
+}
+.trip-iconbox-data p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #536271;
+}
+
+.trip-card-footer-top.border_none {
+  border: none;
 }

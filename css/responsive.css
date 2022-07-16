@@ -205,9 +205,12 @@ header.trip-header-section {
 .trip-contnet h2 {
     font-size: 24px;
 }
-/* .trip-date-section {
-    padding: 40px 0;
-} */
+.trip-brand-item {
+    flex: 0 0 50%;
+}
+.trip-brand-item img{
+    width: 150px;
+}
 .trip-map-red-icon{
     display: block;
 }
@@ -250,6 +253,12 @@ header.trip-header-section {
 }
 .trip-date-section.home2 {
     padding: 40px 0;
+}
+.trip-iconbox-section {
+    padding: 60px 0 30px;
+}
+.trip-iconbox-wrap {
+    margin-bottom: 30px;
 }
 
 }
@@ -302,7 +311,12 @@ header.trip-header-section {
     .trip-hero-section {
         margin-top: 116px;
     }
-    
+    .trip-brand-item img {
+        width: 140px;
+    }
+    .trip-cta-border:before{
+        content: none;
+    }
 }
 
 @media (max-width: 667px) {
@@ -695,6 +709,40 @@ footer.trip-footer-section {
   }
   .trip-sidebar-item-top.mobile {
     display: flex;
+}
+
+.trip-cta2-section {
+    padding: 30px 0 10px;
+}
+.trip-cta2-wrap {
+    margin-bottom: 20px;
+}
+.trip-cta2-title h2 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.trip-cta2-data p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.trip-cta2-thumb img {
+    width: 100px;
+    height: 100%;
+}
+
+.trip-iconbox-thumb {
+    height: auto;
+}
+.trip-iconbox-thumb img {
+    width: 100px;
+}
+.trip-iconbox-data h3 {
+    font-size: 14px;
+    line-height: 18px;
+}
+.trip-iconbox-data p {
+    font-size: 12px;
+    line-height: 20px;
 }
 
 }
