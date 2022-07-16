@@ -6,6 +6,15 @@
   }
 }
 
+@media (min-width: 991px) {
+    header.trip-header-section.sticky-menu {
+        opacity: 0;
+      }
+      .trip-hero-section.sticky-menu{
+        padding: 20px 0 0;
+      }
+  }
+
 @media (min-width: 1200px) and (max-width: 1499px) {
     .trip-sidebar{
         margin: 0;

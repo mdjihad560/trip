@@ -154,11 +154,7 @@ header.trip-header-section {
   padding: 35px 0;
   transition: all 0.4s;
 }
-header.trip-header-section.sticky-menu {
-  background-color: #fff;
-  padding: 25px 0;
-  box-shadow: 0 3px 8px rgb(0 0 0 / 6%);
-}
+
 img.mobile-logo {
   display: none;
 }
@@ -333,7 +329,9 @@ Hero SECTION
   position: fixed;
   width: 100%;
   z-index: 9;
+  transition: all 0.4s;
 }
+
 .trip-hero-section.home2 {
   padding: 120px 0 20px;
 }
