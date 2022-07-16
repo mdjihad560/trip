@@ -140,9 +140,9 @@
                     </div>
                     <div class="trip-card-footer-top">
                       <a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
-                      <button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
-                      <button class="trip-modal" type="button">אתר</button>
-                      <button class="trip-modal" type="button">פרטים נוספים</button>
+                      <button class="share-icon" type="button" data-bs-toggle="modal" data-bs-target="#modalone"><img src="images/message.svg" alt=""></button>
+                      <button class="trip-modal" type="button" data-bs-toggle="modal" data-bs-target="#modaltwo">אתר</button>
+                      <button class="trip-modal" type="button" data-bs-toggle="modal" data-bs-target="#modalthree">פרטים נוספים</button>
                     </div>
                     <div class="trip-card-footer-bottom">
                       <a class="trip-footer-button" href="">הסר<img src="images/share3.svg" alt=""></a>
@@ -193,9 +193,9 @@
                     </div>
                     <div class="trip-card-footer-top">
                       <a class="share-icon" href=""><img src="images/share2.svg" alt=""></a>
-                      <button class="share-icon" type="button"><img src="images/message.svg" alt=""></button>
-                      <button class="trip-modal" type="button">אתר</button>
-                      <button class="trip-modal" type="button">פרטים נוספים</button>
+                      <button class="share-icon" type="button" data-bs-toggle="modal" data-bs-target="#modalone"><img src="images/message.svg" alt=""></button>
+                      <button class="trip-modal" type="button" data-bs-toggle="modal" data-bs-target="#modaltwo">אתר</button>
+                      <button class="trip-modal" type="button" data-bs-toggle="modal" data-bs-target="#modalthree">פרטים נוספים</button>
                     </div>
                     <div class="trip-card-footer-bottom">
                       <a class="trip-footer-button" href="">הסר<img src="images/share3.svg" alt=""></a>
@@ -231,14 +231,198 @@
 			<!-- End footer -->
 
 
+
 			<script src="js/jquery-3.6.0.min.js"></script>
 			<script src="js/semantic.min.js"></script>
+			<script src="js/bootstrap.bundle.js"></script>
 	
 			
 			<script src="js/main.js"></script>
 
 			<!-- End All Js -->
-			
+
+
+
+      <!-- Modal One-->
+      <div class="modal fade" id="modalone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-one">
+          <div class="modal-content">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            <div class="modal-body">
+              <div class="trip-modal-one">
+                  <div class="trip-contact-ratting header-ratting">
+                    <ul>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                      <li><a href="">העיירה מאריבור</a></li>
+                    </ul>
+                  </div>
+                <div class="trip-modal-textarea">
+                  <textarea name="textarea" placeholder=" עצרנו בפארק דינוזוארים מקסים צמוד... היה קשה להינות כי התחיל גשם,החלטנו להמשיך בדרכנו.הגענו לעיירה מאריבור, תכננו לתפוס מגלשת הרים אבל הגשם לא מפסיק והכל סגור, פנינו לקניון אירופארק,קניוןקטן ודי סתמי, אבל במסעדה של הסופק Interspar אכלנו את אחת הארוחות הטובות בטיול.  "></textarea>
+                </div>
+                
+                <div class="trip-modal-btn-wraper">
+                  <a class="trip-modal-btn" href="">Waze <img src="images/message2.svg" alt=""> </a>
+                  <a class="trip-modal-btn" href="">לינק לאתר</a>
+                </div>
+                <div class="trip-social">
+                  <p>שתף באמצעות:</p>
+                  <ul>
+                    <li><a href=""><img src="images/social-icon1.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon2.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon3.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon4.svg" alt=""></a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="trip-modal-thumb">
+                      <img src="images/modal-thumb.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="trip-modal-right">
+                      <div class="trip-contact-ratting">
+                        <ul>
+                          <li><a href="">4.1 (15 ביקורות)</a></li>
+                          <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                          <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                          <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                          <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                          <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                          <li><a href="">ביקורות מגוגל</a></li>
+                        </ul>
+                      </div>
+                      <div class="trip-modal-card">
+                        <div class="trip-modal-card-header">
+                          <div class="trip-contact-ratting">
+                            <ul>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                            </ul>
+                          </div>
+                          <a class="user-btn" href="">יהודה וייסבורד <img src="images/user.png" alt=""></a>
+                        </div>
+                        <p>שירות נהדר, שכחנו את הלפטופ בבידוק הבטחוני, 
+                          ועברנו כבק את הביקורת דרכונים, היו מאד יעילים, 
+                          נתנו לחזור, ותוך מספר דק היה אצלינו בחזרה.</p>
+                      </div>
+                      <div class="trip-modal-card">
+                        <div class="trip-modal-card-header">
+                          <div class="trip-contact-ratting">
+                            <ul>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                              <li><a href=""><img src="images/star1.svg" alt=""></a></li>
+                            </ul>
+                          </div>
+                          <a class="user-btn" href="">יהודה וייסבורד <img src="images/user.png" alt=""></a>
+                        </div>
+                        <p>שירות נהדר, שכחנו את הלפטופ בבידוק הבטחוני, 
+                          ועברנו כבק את הביקורת דרכונים, היו מאד יעילים, 
+                          נתנו לחזור, ותוך מספר דק היה אצלינו בחזרה.</p>
+                      </div>
+                      <a class="trip-modal-red-btn" href="">קרא עוד >>></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- Modal Two-->
+      <div class="modal fade" id="modaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-one">
+          <div class="modal-content">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            <div class="modal-body">
+              <div class="trip-modal-one">
+                  <div class="trip-contact-ratting header-ratting">
+                    <ul>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href=""><img src="images/star2.svg" alt=""></a></li>
+                      <li><a href="">העיירה מאריבור</a></li>
+                    </ul>
+                  </div>
+             
+                  <div class="trip-date-wrap trip-date-modal">
+                    <div class="trip-user-input">
+                      <input type="text" placeholder="6  מטיילים">
+                      <div class="trip-user-cion">
+                        <img src="images/clock.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="ui calendar rangeend">
+                        <div class="ui input icon">
+                          <i class="calendar icon"></i>
+                          <input type="text" placeholder="20-08-2016 ">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="trip-modal-btn-wraper">
+                    <a class="trip-modal-btn" href="">לינק לאתר</a>
+                  </div>
+                <div class="trip-social">
+                  <p>שתף באמצעות:</p>
+                  <ul>
+                    <li><a href=""><img src="images/social-icon1.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon2.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon3.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon4.svg" alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- Modal Two-->
+      <div class="modal fade" id="modalthree" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-three">
+          <div class="modal-content">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            <div class="modal-body">
+              <div class="trip-modal-content">
+                <h2>שתף  את חברייך</h2>
+                <h3>אוסטריה - חבל קרניתיה וסלובניה<img src="images/map-modal.png" alt=""></h3>
+                <div class="trip-shapre-url">
+                  <input type="url" placeholder="http://">
+                </div>
+                <div class="trip-modal-btn-wraper">
+                  <a class="trip-modal-btn" href="">לינק לאתר</a>
+                </div>
+                <div class="trip-social">
+                  <p>שתף באמצעות:</p>
+                  <ul>
+                    <li><a href=""><img src="images/social-icon1.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon2.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon3.svg" alt=""></a></li>
+                    <li><a href=""><img src="images/social-icon4.svg" alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
 
 	</body>
 </html>

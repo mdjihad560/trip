@@ -1499,3 +1499,243 @@ a.trip-card-btn:hover{
 .trip-card-footer-top.border_none {
   border: none;
 }
+
+/* modal one */
+.modal-dialog.modal-one {
+  max-width: 1452px;
+}
+.trip-modal-textarea{
+  margin-bottom: 50px;
+}
+.trip-modal-textarea textarea {
+  width: 100%;
+  resize: none;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: right;
+  color: #000000;
+  height: 500px;
+  border: none;
+  padding: 45px;
+  background: rgba(52, 208, 182, 0.1);
+}
+
+
+.trip-modal-textarea textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000000!important;
+    opacity: 1;
+}
+.trip-modal-textarea textarea:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+   color:    #000000!important;
+   opacity:  1;
+}
+.trip-modal-textarea textarea::-moz-placeholder{ /* Mozilla Firefox 19+ */
+   color:    #000000!important;
+   opacity:  1;
+}
+.trip-modal-textarea textarea:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+   color:    #000000!important;
+   opacity: 1;
+}
+.trip-modal-textarea textarea::-ms-input-placeholder{ /* Microsoft Edge */
+   color:    #000000!important;
+   opacity: 1;
+}
+
+.trip-modal-textarea textarea::placeholder{ /* Most modern browsers support this now. */
+   color:    #000000!important;
+   opacity: 1;
+}
+
+.modal-body {
+  padding: 150px  90px 90px;
+}
+a.trip-modal-btn {
+  width: 249px;
+  height: 56px;
+  background: #07A0C3;
+  border-radius: 45px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  color: #FDFEFF;
+  margin: 0 50px;
+}
+
+.trip-modal-btn-wraper {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.trip-modal-one .trip-social {
+  margin-bottom: 50px;
+}
+.trip-modal-one .trip-social p{
+  font-weight: 500;
+  font-size: 30px;
+  color: #706767;
+  margin-bottom: 30px;
+}
+
+.trip-modal-card {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 15px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.trip-modal-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a.user-btn {
+  font-size: 30px;
+  line-height: 50px;
+  text-align: right;
+  color: #0D2F29;
+  display: flex;
+  align-items: center;
+}
+a.user-btn img{
+  width: 50px;
+  margin-left: 10px;
+}
+.trip-modal-card p{
+  font-size: 26px;
+  line-height: 36px;
+  text-align: right;
+  color: rgba(13, 47, 41, 0.5);
+}
+.trip-modal-thumb {
+  margin-right: 70px;
+}
+
+a.trip-modal-red-btn {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1;
+  text-align: right;
+  text-decoration-line: underline!important;
+  color: #C83E4D;
+  display: block;
+}
+.header-ratting.trip-contact-ratting {
+  margin-bottom: 20px;
+}
+.header-ratting.trip-contact-ratting ul li a {
+  font-size: 35px;
+}
+
+button.btn-close {
+  background: none;
+  background-color: #C83E4D;
+  border-radius: 20px;
+  width: 100px;
+  height: 74px;
+  opacity: 1;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1;
+  padding-bottom: 13px;
+  position: absolute;
+  z-index: 9;
+  left: 36px;
+  top: 45px;
+}
+
+.trip-date-modal .input input {
+  font-size: 22px;
+  padding: 10px 55px!important;
+  color: #929292!important;
+} 
+.trip-date-modal .trip-user-input input {
+  font-size: 22px;
+  padding: 10px 55px!important;
+}
+.trip-date-wrap.trip-date-modal {
+  max-width: 800px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  padding: 10px;
+}
+.trip-date-modal .trip-user-cion img{
+  width: 23px;
+}
+.trip-date-modal .trip-user-cion {
+  top: 10px;
+}
+/* modal three */
+.modal-dialog.modal-three {
+  max-width: 950px;
+  
+}
+.modal-three .modal-body {
+  padding: 150px 80px 80px;
+  background: #F7F7F7;
+}
+
+.modal-three button.btn-close {
+  background: none;
+  background-color: #000;
+  border-radius: 15px;
+  width: 70px;
+  height: 54px;
+  left: 36px;
+  top: 45px;
+  font-size: 48px;
+}
+button.btn-close:hover{
+  opacity: 1;
+  color: #07A0C3;
+}
+.trip-modal-content{
+  text-align: center;
+}
+.trip-modal-content h2{
+  font-weight: 800;
+  font-size: 50px;
+  color: #0D2F29;
+  margin-bottom: 45px;
+}
+.trip-modal-content h3{
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.trip-modal-content h3 img{
+  margin-left: 10px;
+}
+
+.trip-shapre-url input{
+  width: 100%;
+    height: 90px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #706767;
+    background-color: #fff;
+    border: none!important;
+    margin-bottom: 20px;
+    padding: 31px!important;
+}
+
+.modal-three a.trip-modal-btn {
+  width: 173px;
+  height: 46px;
+  background: #DD6E42;
+  border-radius: 45px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 41px;
+}
